@@ -1,0 +1,63 @@
+.adImgBannerTitle{
+	margin: 20px auto 5px auto;
+	font-size: 30px;
+	text-align: center;
+	position: absolute;
+	bottom: 5px;
+	right: 10px;
+	color: #fff;
+	z-index:1000;
+}
+.imgBox{
+	width: 250px;
+	height: 400px;
+	padding: 2px;
+	margin: 0 auto;
+	border: 2px solid black;
+	position: relative;
+	overflow: hidden;
+}
+.moveBtn{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	line-height: 40px;
+	text-align: center;
+	position: absolute;
+	font-size: 28px;
+	opacity: 0.5;
+	background-color: #fff;
+	left: 10px;
+	top: 40%;
+	z-index: 100;
+}
+.moveBtn-right{
+	margin-left: 193px;
+}
+.moveBtn:hover{
+	cursor: pointer;
+}
+.img{
+	width:33.3%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 33.3%;
+	z-index: 10;
+}
+.imgMoveBox{
+	width: 300%;
+	height: 100%;
+	position: relative;
+	left:-100%;
+}
+.btnBox{
+	width: 300px;
+	margin: 0  auto;
+	text-align: center;
+}
+.subImg{
+	left: 33.3%;
+	z-index: 1;
+}
